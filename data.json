@@ -1,4 +1,5 @@
 {
+ {
   "jobs": [
     {
       "title": "《流放之路2》3D角色设计",
@@ -8,7 +9,7 @@
       "desc": "根据原画完成角色服装、怪物、游戏内道具的模型和贴图制作；精确还原原画设计并丰富细节，确保游戏资源高品质表现。对接外包模型制作，把控进度与品质落地。",
       "skills": ["Maya", "ZBrush", "Substance Painter", "Marvelous Designer", "PBR"],
       "time": "5天前",
-      "link": "https://tencent.wd1.myworkdayjobs.com/en-US/oa_huoshui_platform/job/China-Shenzhen/XMLNAME-3D-Character-Artist_R107901-1"
+      "link": "https://tencent.wd1.myworkdayjobs.com"
     },
     {
       "title": "3D场景设计（校招补录）",
@@ -18,7 +19,7 @@
       "desc": "负责射击手游场景的3D建模与制作，涵盖建筑、道具摆件等资产搭建；把控场景物件质量与制作节点，优化资源面数、贴图规划，确保适配手游性能。",
       "skills": ["3ds Max", "Maya", "ZBrush", "Substance Painter", "UE4", "Unity"],
       "time": "近期",
-      "link": "https://wap.hxsd.com/content/59197/#1"
+      "link": "https://wap.hxsd.com"
     },
     {
       "title": "开放世界-3D场景模型（上海）",
@@ -28,7 +29,7 @@
       "desc": "使用UE引擎制作高质量、写实的游戏场景模型，包括建筑、道路、植被、地形等元素；设计和制作雾气、水流、火焰等特效，参与场景布置和灯光设置。",
       "skills": ["UE5", "3ds Max", "Maya", "PBR", "场景优化"],
       "time": "2026-09-22",
-      "link": "https://careers.tencent.com/jobdesc.html?postId=2092090962103943168"
+      "link": "https://careers.tencent.com"
     },
     {
       "title": "和平精英-3D角色设计师（脸型方向）",
@@ -38,7 +39,7 @@
       "desc": "依据原画完成美型/BJD风格脸型高中低模与贴图制作，精准把控五官比例、轮廓精致度与肤质质感；负责脸型资源导入Unreal引擎后的材质调试与效果验收。",
       "skills": ["Unreal", "Maya", "3ds Max", "ZBrush", "SP", "MD"],
       "time": "2026-09-07",
-      "link": "https://careers.tencent.com/m/jobdesc.html?postId=2050930006028369920"
+      "link": "https://careers.tencent.com"
     },
     {
       "title": "3D角色设计师（次世代）",
@@ -48,7 +49,7 @@
       "desc": "根据角色原画三视图，独立完成游戏角色、怪物、BOSS、皮肤及配饰的高模雕刻、低模拓扑、UV拆分、烘焙及PBR贴图绘制，完成全流程3D资源落地。",
       "skills": ["Maya", "3ds Max", "ZBrush", "Substance Painter", "PBR"],
       "time": "2026-06-23",
-      "link": "https://noww.ncss.cn/student/jobs/MXfn5jiuneDKzYLSNfKvcJ/detail.html"
+      "link": "https://noww.ncss.cn"
     }
   ],
   "industry": [
@@ -67,6 +68,14 @@
       "summary": "卡梅隆团队采用新一代面部捕捉系统，3D 模型细节达到毛孔级别。",
       "date": "2026-10-12",
       "link": "https://www.gamedailys.com"
+    },
+    {
+      "category": "手办",
+      "icon": "fa-crown",
+      "title": "Prime 1 Studio 公布 1/4 比例雕像",
+      "summary": "极致细节，附带可替换手臂和剑，即日起开启预定。",
+      "date": "2026-10-11",
+      "link": "https://www.gamedailys.com"
     }
   ],
   "ai": [
@@ -83,6 +92,93 @@
       "summary": "可通过文字或图片快速生成带贴图的 3D 模型，支持导出 OBJ/FBX。",
       "date": "2026-10-12",
       "link": "https://www.tripo3d.ai"
+    },
+    {
+      "icon": "fa-robot",
+      "title": "NVIDIA 推出 ACE 数字人微服务",
+      "summary": "ACE 支持从 3D 模型自动生成面部动画和语音驱动，降低 NPC 制作成本。",
+      "date": "2026-10-11",
+      "link": "https://www.nvidia.com"
+    }
+  ]
+}
+      "title": "3D角色建模师",
+      "company": "腾讯游戏",
+      "city": "成都",
+      "tag": "新",
+      "desc": "负责写实风格角色模型制作，熟练使用 Maya、ZBrush、Substance Painter。",
+      "skills": ["Maya", "ZBrush", "次世代"],
+      "time": "2小时前",
+      "link": "https://careers.tencent.com"
+    },
+    {
+      "title": "场景/道具建模师",
+      "company": "网易",
+      "city": "广州",
+      "tag": "热招",
+      "desc": "擅长硬表面建模，熟悉 Blender 或 3ds Max，有手办化经验加分。",
+      "skills": ["Blender", "3ds Max", "硬表面"],
+      "time": "5小时前",
+      "link": "https://hr.163.com"
+    },
+    {
+      "title": "3D手办原型师",
+      "company": "米哈游",
+      "city": "上海",
+      "tag": "新",
+      "desc": "负责角色手办原型数字雕刻，精通 ZBrush，了解手办生产流程。",
+      "skills": ["ZBrush", "手办", "数字雕刻"],
+      "time": "1天前",
+      "link": "https://www.mihoyo.com"
+    }
+  ],
+  "industry": [
+    {
+      "category": "游戏",
+      "icon": "fa-gamepad",
+      "title": "《黑神话：悟空》DLC 建模曝光",
+      "summary": "游戏科学透露 DLC 将包含更多中国神话角色，建模精度进一步提升。",
+      "date": "2026-10-13",
+      "link": "https://www.gamedailys.com"
+    },
+    {
+      "category": "影视",
+      "icon": "fa-film",
+      "title": "《阿凡达3》CG 角色表情捕捉技术再突破",
+      "summary": "卡梅隆团队采用新一代面部捕捉系统，3D 模型细节达到毛孔级别。",
+      "date": "2026-10-12",
+      "link": "https://www.gamedailys.com"
+    },
+    {
+      "category": "手办",
+      "icon": "fa-crown",
+      "title": "Prime 1 Studio 公布 1/4 比例雕像",
+      "summary": "极致细节，附带可替换手臂和剑，即日起开启预定。",
+      "date": "2026-10-11",
+      "link": "https://www.gamedailys.com"
+    }
+  ],
+  "ai": [
+    {
+      "icon": "fa-video",
+      "title": "OpenAI 发布 Sora 2.0：视频生成达到 3D 一致",
+      "summary": "新模型在时间一致性和三维空间一致性上大幅提升，对影视、游戏预演产生重大影响。",
+      "date": "2026-10-13",
+      "link": "https://openai.com"
+    },
+    {
+      "icon": "fa-cube",
+      "title": "Tripo AI 推出文本生成 3D 模型工具",
+      "summary": "可通过文字或图片快速生成带贴图的 3D 模型，支持导出 OBJ/FBX。",
+      "date": "2026-10-12",
+      "link": "https://www.tripo3d.ai"
+    },
+    {
+      "icon": "fa-robot",
+      "title": "NVIDIA 推出 ACE 数字人微服务",
+      "summary": "ACE 支持从 3D 模型自动生成面部动画和语音驱动，降低 NPC 制作成本。",
+      "date": "2026-10-11",
+      "link": "https://www.nvidia.com"
     }
   ]
 }
