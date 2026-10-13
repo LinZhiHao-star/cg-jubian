@@ -1,15 +1,106 @@
 {
- "jobs": [
+  "jobs": [
+    {
+      "title": "《流放之路2》3D角色设计",
+      "company": "腾讯 Level Infinite",
+      "city": "深圳",
+      "tag": "新",
+      "desc": "根据原画完成角色服装、怪物、游戏内道具的模型和贴图制作；精确还原原画设计并丰富细节，确保游戏资源高品质表现。对接外包模型制作，把控进度与品质落地。",
+      "skills": ["Maya", "ZBrush", "Substance Painter", "Marvelous Designer", "PBR"],
+      "time": "5天前",
+      "link": "https://tencent.wd1.myworkdayjobs.com/en-US/oa_huoshui_platform/job/China-Shenzhen/XMLNAME-3D-Character-Artist_R107901-1"
+    },
+    {
+      "title": "3D场景设计（校招补录）",
+      "company": "腾讯天美J3工作室",
+      "city": "成都",
+      "tag": "校招",
+      "desc": "负责射击手游场景的3D建模与制作，涵盖建筑、道具摆件等资产搭建；把控场景物件质量与制作节点，优化资源面数、贴图规划，确保适配手游性能。",
+      "skills": ["3ds Max", "Maya", "ZBrush", "Substance Painter", "UE4", "Unity"],
+      "time": "近期",
+      "link": "https://wap.hxsd.com/content/59197/#1"
+    },
+    {
+      "title": "开放世界-3D场景模型（上海）",
+      "company": "腾讯 IEG",
+      "city": "上海/杭州",
+      "tag": "热招",
+      "desc": "使用UE引擎制作高质量、写实的游戏场景模型，包括建筑、道路、植被、地形等元素；设计和制作雾气、水流、火焰等特效，参与场景布置和灯光设置。",
+      "skills": ["UE5", "3ds Max", "Maya", "PBR", "场景优化"],
+      "time": "2026-09-22",
+      "link": "https://careers.tencent.com/jobdesc.html?postId=2092090962103943168"
+    },
+    {
+      "title": "和平精英-3D角色设计师（脸型方向）",
+      "company": "腾讯 IEG",
+      "city": "深圳",
+      "tag": "急聘",
+      "desc": "依据原画完成美型/BJD风格脸型高中低模与贴图制作，精准把控五官比例、轮廓精致度与肤质质感；负责脸型资源导入Unreal引擎后的材质调试与效果验收。",
+      "skills": ["Unreal", "Maya", "3ds Max", "ZBrush", "SP", "MD"],
+      "time": "2026-09-07",
+      "link": "https://careers.tencent.com/m/jobdesc.html?postId=2050930006028369920"
+    },
+    {
+      "title": "3D角色设计师（次世代）",
+      "company": "完美世界",
+      "city": "成都",
+      "tag": "校招",
+      "desc": "根据角色原画三视图，独立完成游戏角色、怪物、BOSS、皮肤及配饰的高模雕刻、低模拓扑、UV拆分、烘焙及PBR贴图绘制，完成全流程3D资源落地。",
+      "skills": ["Maya", "3ds Max", "ZBrush", "Substance Painter", "PBR"],
+      "time": "2026-06-23",
+      "link": "https://noww.ncss.cn/student/jobs/MXfn5jiuneDKzYLSNfKvcJ/detail.html"
+    },
     {
       "title": "3D角色建模师",
-      "company": "腾讯游戏",
-      "city": "成都",
+      "company": "叠纸游戏（Infold Games）",
+      "city": "洛杉矶（海外3A项目）",
       "tag": "新",
-      "desc": "负责写实风格角色模型制作，熟练使用 Maya、ZBrush、Substance Painter。有次世代游戏经验优先。",
-      "skills": ["Maya", "ZBrush", "次世代"],
-      "time": "2小时前",
-      "link": "https://careers.tencent.com"
+      "desc": "叠纸海外发行品牌 Infold Games 新3A项目招聘3D Character Modeler，负责角色建模。办公地点位于美国洛杉矶。",
+      "skills": ["角色建模", "3A项目", "英文沟通"],
+      "time": "2026-07-21",
+      "link": "https://m.163.com"
     },
+    {
+      "title": "3D场景地编设计师",
+      "company": "上海蛮啾网络科技",
+      "city": "上海",
+      "tag": "热招",
+      "desc": "负责游戏项目内场景地形、植被、道具等内容的搭建与编辑，将概念设计转化为可玩的高品质游戏场景；负责场景灯光设计与氛围营造。",
+      "skills": ["场景编辑", "地形搭建", "灯光设计", "氛围营造"],
+      "time": "2026-09-15",
+      "link": "https://www.career.zju.edu.cn"
+    },
+    {
+      "title": "3D场景美术师",
+      "company": "易得互娱（杭州）",
+      "city": "杭州",
+      "tag": "校招",
+      "desc": "理解游戏世界观并利用三维软件制作场景及角色；根据原画设计师绘制出符合项目需要的场景、人物、道具设计；配合原画及动作制定游戏角色及场景，正确制作引擎模型。",
+      "skills": ["Maya", "3ds Max", "场景建模", "引擎导入"],
+      "time": "2026-10-08",
+      "link": "https://jyb.cjlu.edu.cn"
+    },
+    {
+      "title": "3D场景美术师",
+      "company": "多家游戏公司（重庆）",
+      "city": "重庆",
+      "tag": "校招",
+      "desc": "负责游戏内的建筑、植被、场景物件的模型和贴图制作；负责地形的编辑，配合关卡策划以及概念设计，还原游戏需要的场景关卡的制作。",
+      "skills": ["场景建模", "贴图制作", "地形编辑"],
+      "time": "2026-03-12",
+      "link": "https://scfai.cqbys.com"
+    },
+    {
+      "title": "次时代模型设计师",
+      "company": "多家游戏公司（杭州）",
+      "city": "杭州",
+      "tag": "校招",
+      "desc": "理解游戏世界观并利用三维软件制作场景及角色；根据原画设计师绘制出制作符合项目需要的场景、人物、道具设计；配合原画及动作制定游戏角色及场景，正确制作引擎模型。",
+      "skills": ["Maya", "3ds Max", "ZBrush", "次世代流程"],
+      "time": "2026-10-08",
+      "link": "https://zccareer.zufe.edu.cn"
+    }
+  ],
     {
       "title": "场景/道具建模师",
       "company": "网易",
