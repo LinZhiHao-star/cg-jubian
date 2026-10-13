@@ -1,0 +1,83 @@
+{
+  "jobs": [
+    {
+      "title": "3D角色建模师",
+      "company": "腾讯游戏",
+      "city": "成都",
+      "tag": "新",
+      "desc": "负责写实风格角色模型制作，熟练使用 Maya、ZBrush、Substance Painter。",
+      "skills": ["Maya", "ZBrush", "次世代"],
+      "time": "2小时前",
+      "link": "https://careers.tencent.com"
+    },
+    {
+      "title": "场景/道具建模师",
+      "company": "网易",
+      "city": "广州",
+      "tag": "热招",
+      "desc": "擅长硬表面建模，熟悉 Blender 或 3ds Max，有手办化经验加分。",
+      "skills": ["Blender", "3ds Max", "硬表面"],
+      "time": "5小时前",
+      "link": "https://hr.163.com"
+    },
+    {
+      "title": "3D手办原型师",
+      "company": "米哈游",
+      "city": "上海",
+      "tag": "新",
+      "desc": "负责角色手办原型数字雕刻，精通 ZBrush，了解手办生产流程。",
+      "skills": ["ZBrush", "手办", "数字雕刻"],
+      "time": "1天前",
+      "link": "https://www.mihoyo.com"
+    }
+  ],
+  "industry": [
+    {
+      "category": "游戏",
+      "icon": "fa-gamepad",
+      "title": "《黑神话：悟空》DLC 建模曝光",
+      "summary": "游戏科学透露 DLC 将包含更多中国神话角色，建模精度进一步提升。",
+      "date": "2026-10-13",
+      "link": "https://www.gamedailys.com"
+    },
+    {
+      "category": "影视",
+      "icon": "fa-film",
+      "title": "《阿凡达3》CG 角色表情捕捉技术再突破",
+      "summary": "卡梅隆团队采用新一代面部捕捉系统，3D 模型细节达到毛孔级别。",
+      "date": "2026-10-12",
+      "link": "https://www.gamedailys.com"
+    },
+    {
+      "category": "手办",
+      "icon": "fa-crown",
+      "title": "Prime 1 Studio 公布 1/4 比例雕像",
+      "summary": "极致细节，附带可替换手臂和剑，即日起开启预定。",
+      "date": "2026-10-11",
+      "link": "https://www.gamedailys.com"
+    }
+  ],
+  "ai": [
+    {
+      "icon": "fa-video",
+      "title": "OpenAI 发布 Sora 2.0：视频生成达到 3D 一致",
+      "summary": "新模型在时间一致性和三维空间一致性上大幅提升，对影视、游戏预演产生重大影响。",
+      "date": "2026-10-13",
+      "link": "https://openai.com"
+    },
+    {
+      "icon": "fa-cube",
+      "title": "Tripo AI 推出文本生成 3D 模型工具",
+      "summary": "可通过文字或图片快速生成带贴图的 3D 模型，支持导出 OBJ/FBX。",
+      "date": "2026-10-12",
+      "link": "https://www.tripo3d.ai"
+    },
+    {
+      "icon": "fa-robot",
+      "title": "NVIDIA 推出 ACE 数字人微服务",
+      "summary": "ACE 支持从 3D 模型自动生成面部动画和语音驱动，降低 NPC 制作成本。",
+      "date": "2026-10-11",
+      "link": "https://www.nvidia.com"
+    }
+  ]
+}

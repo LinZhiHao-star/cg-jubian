@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CG聚变 · 建模与AI情报站</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+  .card-hover{transition:transform .2s,box-shadow .2s}
+  .card-hover:hover{transform:translateY(-4px);box-shadow:0 12px 24px -8px rgba(0,0,0,.15)}
+  .fade-in{animation:fadeIn .4s ease forwards}
+  @keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  .loading{display:flex;justify-content:center;padding:40px;color:#94a3b8}
+</style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800">
+
+<header class="bg-white/80 backdrop-blur-md border-b sticky top-0 z-10 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
+    <div class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center text-white">
+        <i class="fas fa-cube"></i>
+      </div>
+      <h1 class="text-xl font-bold">CG<span class="text-indigo-600">聚变</span></h1>
+      <span class="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full">● 在线</span>
+    </div>
+    <div class="text-sm text-slate-500 hidden sm:block">
+      <i class="fas fa-sync-alt mr-1"></i> 数据实时同步
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 py-8">
+  <div class="mb-8">
+    <h2 class="text-2xl sm:text-3xl font-extrabold flex items-center gap-3">
+      <i class="fas fa-bolt text-amber-500"></i> 建模 · 影视 · 手办 · AI 情报站
+    </h2>
+    <p class="text-slate-500 mt-2">为学员整理的 3D 建模岗位、行业资讯及 AI 动态</p>
+  </div>
+
+  <div class="flex flex-wrap gap-3 mb-8">
+    <a href="#jobs" class="px-4 py-1.5 bg-white border rounded-full text-sm hover:border-indigo-300 hover:text-indigo-600 shadow-sm"><i class="fas fa-briefcase mr-1.5 text-indigo-500"></i>3D建模岗位</a>
+    <a href="#industry" class="px-4 py-1.5 bg-white border rounded-full text-sm hover:border-indigo-300 hover:text-indigo-600 shadow-sm"><i class="fas fa-film mr-1.5 text-purple-500"></i>游戏影视手办</a>
+    <a href="#ai" class="px-4 py-1.5 bg-white border rounded-full text-sm hover:border-indigo-300 hover:text-indigo-600 shadow-sm"><i class="fas fa-robot mr-1.5 text-emerald-500"></i>AI 资讯</a>
+  </div>
+
+  <!-- 岗位 -->
+  <section id="jobs" class="mb-14">
+    <h3 class="text-xl font-semibold mb-5 flex items-center gap-2">
+      <span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span>最新 3D 建模岗位
+    </h3>
+    <div id="jobs-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="loading"><i class="fas fa-spinner fa-spin mr-2"></i>加载中...</div>
+    </div>
+  </section>
+
+  <!-- 行业资讯 -->
+  <section id="industry" class="mb-14">
+    <h3 class="text-xl font-semibold mb-5 flex items-center gap-2">
+      <span class="w-1.5 h-6 bg-purple-500 rounded-full"></span>游戏 · 影视 · 手办资讯
+    </h3>
+    <div id="industry-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="loading"><i class="fas fa-spinner fa-spin mr-2"></i>加载中...</div>
+    </div>
+  </section>
+
+  <!-- AI 资讯 -->
+  <section id="ai" class="mb-12">
+    <h3 class="text-xl font-semibold mb-5 flex items-center gap-2">
+      <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span>AI 行业资讯
+    </h3>
+    <div id="ai-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="loading"><i class="fas fa-spinner fa-spin mr-2"></i>加载中...</div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-white border-t py-6 mt-8">
+  <div class="max-w-7xl mx-auto px-4 text-center text-sm text-slate-400">
+    © 2025 CG聚变 · 学员情报站 | 数据每日更新
+  </div>
+</footer>
+
+<script>
+// 数据源地址（部署后换成你的 GitHub Pages 地址）
+const DATA_URL = './data.json';
+
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now()); // 加时间戳避免缓存
+    const data = await res.json();
+    renderJobs(data.jobs || []);
+    renderIndustry(data.industry || []);
+    renderAI(data.ai || []);
+  } catch (e) {
+    console.error('数据加载失败', e);
+    document.querySelectorAll('.loading').forEach(el => {
+      el.innerHTML = '<span class="text-red-400">数据加载失败，请检查 data.json</span>';
+    });
+  }
+}
+
+function renderJobs(list) {
+  const box = document.getElementById('jobs-list');
+  if (!list.length) { box.innerHTML = '<p class="text-slate-400">暂无岗位</p>'; return; }
+  box.innerHTML = list.map(j => `
+    <div class="bg-white rounded-xl border shadow-sm p-5 card-hover fade-in">
+      <div class="flex justify-between items-start">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-indigo-600">
+            <i class="fas fa-cubes"></i>
+          </div>
+          <div>
+            <h4 class="font-bold">${j.title}</h4>
+            <p class="text-sm text-slate-500"><i class="fas fa-building mr-1"></i>${j.company} · ${j.city}</p>
+          </div>
+        </div>
+        ${j.tag ? `<span class="text-xs px-2 py-1 rounded-full bg-green-100 text-green-700">${j.tag}</span>` : ''}
+      </div>
+      <p class="text-sm text-slate-600 mt-3">${j.desc}</p>
+      <div class="mt-3 flex flex-wrap gap-2">
+        ${(j.skills||[]).map(s => `<span class="text-xs bg-slate-100 px-2 py-1 rounded-full">${s}</span>`).join('')}
+      </div>
+      <div class="mt-4 flex justify-between items-center border-t pt-3">
+        <span class="text-xs text-slate-400"><i class="far fa-clock mr-1"></i>${j.time}</span>
+        <a href="${j.link||'#'}" target="_blank" class="text-sm text-indigo-600 hover:text-indigo-800">查看详情 <i class="fas fa-arrow-right text-xs"></i></a>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderIndustry(list) {
+  const box = document.getElementById('industry-list');
+  if (!list.length) { box.innerHTML = '<p class="text-slate-400">暂无资讯</p>'; return; }
+  box.innerHTML = list.map(n => `
+    <div class="bg-white rounded-xl border shadow-sm overflow-hidden card-hover fade-in">
+      <div class="h-24 bg-gradient-to-r from-purple-500 to-indigo-500 flex items-center justify-center text-white text-3xl">
+        <i class="fas ${n.icon||'fa-gamepad'}"></i>
+      </div>
+      <div class="p-5">
+        <div class="flex gap-2 text-xs text-slate-400 mb-2">
+          <span class="bg-purple-50 text-purple-600 px-2 py-0.5 rounded-full">${n.category}</span>
+          <span><i class="far fa-calendar-alt mr-1"></i>${n.date}</span>
+        </div>
+        <h4 class="font-bold text-lg leading-snug">${n.title}</h4>
+        <p class="text-sm text-slate-500 mt-2">${n.summary}</p>
+        <a href="${n.link||'#'}" target="_blank" class="inline-block mt-3 text-sm text-purple-600 hover:text-purple-800">阅读全文 <i class="fas fa-arrow-right text-xs"></i></a>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderAI(list) {
+  const box = document.getElementById('ai-list');
+  if (!list.length) { box.innerHTML = '<p class="text-slate-400">暂无资讯</p>'; return; }
+  box.innerHTML = list.map(n => `
+    <div class="bg-white rounded-xl border shadow-sm p-5 card-hover fade-in">
+      <div class="flex items-start gap-3">
+        <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
+          <i class="fas ${n.icon||'fa-brain'}"></i>
+        </div>
+        <div>
+          <h4 class="font-bold">${n.title}</h4>
+          <p class="text-xs text-slate-400 mt-1"><i class="far fa-calendar-alt mr-1"></i>${n.date}</p>
+        </div>
+      </div>
+      <p class="text-sm text-slate-600 mt-3">${n.summary}</p>
+      <a href="${n.link||'#'}" target="_blank" class="inline-flex items-center mt-3 text-sm text-emerald-600 hover:text-emerald-800">阅读全文 <i class="fas fa-arrow-right ml-1 text-xs"></i></a>
+    </div>
+  `).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>
