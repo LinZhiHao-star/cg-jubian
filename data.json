@@ -1,11 +1,11 @@
 {
-  "jobs": [
+ "jobs": [
     {
       "title": "3D角色建模师",
       "company": "腾讯游戏",
       "city": "成都",
       "tag": "新",
-      "desc": "负责写实风格角色模型制作，熟练使用 Maya、ZBrush、Substance Painter。",
+      "desc": "负责写实风格角色模型制作，熟练使用 Maya、ZBrush、Substance Painter。有次世代游戏经验优先。",
       "skills": ["Maya", "ZBrush", "次世代"],
       "time": "2小时前",
       "link": "https://careers.tencent.com"
@@ -15,7 +15,7 @@
       "company": "网易",
       "city": "广州",
       "tag": "热招",
-      "desc": "擅长硬表面建模，熟悉 Blender 或 3ds Max，有手办化经验加分。",
+      "desc": "擅长硬表面建模，对建筑结构、植被有了解。熟悉 Blender 或 3ds Max，有手办化经验加分。",
       "skills": ["Blender", "3ds Max", "硬表面"],
       "time": "5小时前",
       "link": "https://hr.163.com"
@@ -25,10 +25,60 @@
       "company": "米哈游",
       "city": "上海",
       "tag": "新",
-      "desc": "负责角色手办原型数字雕刻，精通 ZBrush，了解手办生产流程。",
+      "desc": "负责角色手办原型数字雕刻，精通 ZBrush，了解手办生产流程。有GK或雕像经验者优先。",
       "skills": ["ZBrush", "手办", "数字雕刻"],
       "time": "1天前",
       "link": "https://www.mihoyo.com"
+    },
+    {
+      "title": "次世代场景模型师",
+      "company": "完美世界",
+      "city": "北京",
+      "tag": "急聘",
+      "desc": "负责UE5场景搭建，熟悉PBR流程，有3A项目经验优先。",
+      "skills": ["UE5", "PBR", "3A"],
+      "time": "3小时前",
+      "link": "https://www.wanmei.com"
+    },
+    {
+      "title": "3D美术设计师（元宇宙）",
+      "company": "字节跳动",
+      "city": "北京",
+      "tag": "新",
+      "desc": "负责虚拟人、虚拟场景的3D资产制作，熟悉Blender、C4D，有Unity经验加分。",
+      "skills": ["Blender", "C4D", "Unity"],
+      "time": "6小时前",
+      "link": "https://jobs.bytedance.com"
+    },
+    {
+      "title": "角色建模师（二次元）",
+      "company": "鹰角网络",
+      "city": "上海",
+      "tag": "热招",
+      "desc": "负责二次元风格角色建模，精通ZBrush、Maya，对日系审美有深刻理解。",
+      "skills": ["ZBrush", "Maya", "二次元"],
+      "time": "1天前",
+      "link": "https://www.hypergryph.com"
+    },
+    {
+      "title": "3D硬表面建模师",
+      "company": "莉莉丝游戏",
+      "city": "上海",
+      "tag": "新",
+      "desc": "负责机械、载具等硬表面模型制作，熟练掌握Blender、Substance Painter。",
+      "skills": ["Blender", "SP", "硬表面"],
+      "time": "2天前",
+      "link": "https://www.lilith.com"
+    },
+    {
+      "title": "手办涂装师/建模师",
+      "company": "Hobbymax",
+      "city": "东莞",
+      "tag": "热招",
+      "desc": "负责手办原型打磨、涂装，同时需要会基础3D建模（ZBrush）。有手办厂经验优先。",
+      "skills": ["ZBrush", "涂装", "手办"],
+      "time": "3天前",
+      "link": "https://www.hobbymax.com"
     }
   ],
   "industry": [
