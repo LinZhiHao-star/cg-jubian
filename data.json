@@ -49,127 +49,6 @@
       "skills": ["Maya", "3ds Max", "ZBrush", "Substance Painter", "PBR"],
       "time": "2026-06-23",
       "link": "https://noww.ncss.cn/student/jobs/MXfn5jiuneDKzYLSNfKvcJ/detail.html"
-    },
-    {
-      "title": "3D角色建模师",
-      "company": "叠纸游戏（Infold Games）",
-      "city": "洛杉矶（海外3A项目）",
-      "tag": "新",
-      "desc": "叠纸海外发行品牌 Infold Games 新3A项目招聘3D Character Modeler，负责角色建模。办公地点位于美国洛杉矶。",
-      "skills": ["角色建模", "3A项目", "英文沟通"],
-      "time": "2026-07-21",
-      "link": "https://m.163.com"
-    },
-    {
-      "title": "3D场景地编设计师",
-      "company": "上海蛮啾网络科技",
-      "city": "上海",
-      "tag": "热招",
-      "desc": "负责游戏项目内场景地形、植被、道具等内容的搭建与编辑，将概念设计转化为可玩的高品质游戏场景；负责场景灯光设计与氛围营造。",
-      "skills": ["场景编辑", "地形搭建", "灯光设计", "氛围营造"],
-      "time": "2026-09-15",
-      "link": "https://www.career.zju.edu.cn"
-    },
-    {
-      "title": "3D场景美术师",
-      "company": "易得互娱（杭州）",
-      "city": "杭州",
-      "tag": "校招",
-      "desc": "理解游戏世界观并利用三维软件制作场景及角色；根据原画设计师绘制出符合项目需要的场景、人物、道具设计；配合原画及动作制定游戏角色及场景，正确制作引擎模型。",
-      "skills": ["Maya", "3ds Max", "场景建模", "引擎导入"],
-      "time": "2026-10-08",
-      "link": "https://jyb.cjlu.edu.cn"
-    },
-    {
-      "title": "3D场景美术师",
-      "company": "多家游戏公司（重庆）",
-      "city": "重庆",
-      "tag": "校招",
-      "desc": "负责游戏内的建筑、植被、场景物件的模型和贴图制作；负责地形的编辑，配合关卡策划以及概念设计，还原游戏需要的场景关卡的制作。",
-      "skills": ["场景建模", "贴图制作", "地形编辑"],
-      "time": "2026-03-12",
-      "link": "https://scfai.cqbys.com"
-    },
-    {
-      "title": "次时代模型设计师",
-      "company": "多家游戏公司（杭州）",
-      "city": "杭州",
-      "tag": "校招",
-      "desc": "理解游戏世界观并利用三维软件制作场景及角色；根据原画设计师绘制出制作符合项目需要的场景、人物、道具设计；配合原画及动作制定游戏角色及场景，正确制作引擎模型。",
-      "skills": ["Maya", "3ds Max", "ZBrush", "次世代流程"],
-      "time": "2026-10-08",
-      "link": "https://zccareer.zufe.edu.cn"
-    }
-  ],
-    {
-      "title": "场景/道具建模师",
-      "company": "网易",
-      "city": "广州",
-      "tag": "热招",
-      "desc": "擅长硬表面建模，对建筑结构、植被有了解。熟悉 Blender 或 3ds Max，有手办化经验加分。",
-      "skills": ["Blender", "3ds Max", "硬表面"],
-      "time": "5小时前",
-      "link": "https://hr.163.com"
-    },
-    {
-      "title": "3D手办原型师",
-      "company": "米哈游",
-      "city": "上海",
-      "tag": "新",
-      "desc": "负责角色手办原型数字雕刻，精通 ZBrush，了解手办生产流程。有GK或雕像经验者优先。",
-      "skills": ["ZBrush", "手办", "数字雕刻"],
-      "time": "1天前",
-      "link": "https://www.mihoyo.com"
-    },
-    {
-      "title": "次世代场景模型师",
-      "company": "完美世界",
-      "city": "北京",
-      "tag": "急聘",
-      "desc": "负责UE5场景搭建，熟悉PBR流程，有3A项目经验优先。",
-      "skills": ["UE5", "PBR", "3A"],
-      "time": "3小时前",
-      "link": "https://www.wanmei.com"
-    },
-    {
-      "title": "3D美术设计师（元宇宙）",
-      "company": "字节跳动",
-      "city": "北京",
-      "tag": "新",
-      "desc": "负责虚拟人、虚拟场景的3D资产制作，熟悉Blender、C4D，有Unity经验加分。",
-      "skills": ["Blender", "C4D", "Unity"],
-      "time": "6小时前",
-      "link": "https://jobs.bytedance.com"
-    },
-    {
-      "title": "角色建模师（二次元）",
-      "company": "鹰角网络",
-      "city": "上海",
-      "tag": "热招",
-      "desc": "负责二次元风格角色建模，精通ZBrush、Maya，对日系审美有深刻理解。",
-      "skills": ["ZBrush", "Maya", "二次元"],
-      "time": "1天前",
-      "link": "https://www.hypergryph.com"
-    },
-    {
-      "title": "3D硬表面建模师",
-      "company": "莉莉丝游戏",
-      "city": "上海",
-      "tag": "新",
-      "desc": "负责机械、载具等硬表面模型制作，熟练掌握Blender、Substance Painter。",
-      "skills": ["Blender", "SP", "硬表面"],
-      "time": "2天前",
-      "link": "https://www.lilith.com"
-    },
-    {
-      "title": "手办涂装师/建模师",
-      "company": "Hobbymax",
-      "city": "东莞",
-      "tag": "热招",
-      "desc": "负责手办原型打磨、涂装，同时需要会基础3D建模（ZBrush）。有手办厂经验优先。",
-      "skills": ["ZBrush", "涂装", "手办"],
-      "time": "3天前",
-      "link": "https://www.hobbymax.com"
     }
   ],
   "industry": [
@@ -188,14 +67,6 @@
       "summary": "卡梅隆团队采用新一代面部捕捉系统，3D 模型细节达到毛孔级别。",
       "date": "2026-10-12",
       "link": "https://www.gamedailys.com"
-    },
-    {
-      "category": "手办",
-      "icon": "fa-crown",
-      "title": "Prime 1 Studio 公布 1/4 比例雕像",
-      "summary": "极致细节，附带可替换手臂和剑，即日起开启预定。",
-      "date": "2026-10-11",
-      "link": "https://www.gamedailys.com"
     }
   ],
   "ai": [
@@ -212,13 +83,6 @@
       "summary": "可通过文字或图片快速生成带贴图的 3D 模型，支持导出 OBJ/FBX。",
       "date": "2026-10-12",
       "link": "https://www.tripo3d.ai"
-    },
-    {
-      "icon": "fa-robot",
-      "title": "NVIDIA 推出 ACE 数字人微服务",
-      "summary": "ACE 支持从 3D 模型自动生成面部动画和语音驱动，降低 NPC 制作成本。",
-      "date": "2026-10-11",
-      "link": "https://www.nvidia.com"
     }
   ]
 }
